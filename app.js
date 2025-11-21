@@ -140,7 +140,7 @@
 				]
 				},
 				{
-					name: "Ordem de Venda",
+					name: "Pedido de Venda",
 					title: "PVD",
 					selecMode: '{value}',
 					editMode: '{value}',
