@@ -1,0 +1,142 @@
+* {
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#app-container {
+    padding: 0.5rem !important;
+    max-height: 100vh;
+}
+
+.box {
+    margin: 0 !important;
+    padding: 0.5rem !important;
+    box-sizing: border-box;
+}
+
+.table.is-sps-table-v1 td {
+    white-space: nowrap; 
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+    margin-bottom: 0 !important;
+}
+
+.table.is-sps-table-v1 {
+    overflow-y: auto !important;
+    overflow-x: auto !important;
+}
+
+.table.is-sps-table-v1 tbody td {
+    height: 100%;
+    padding: 0;
+}
+
+.table.is-sps-table-v1 tbody td input:not([type="checkbox"]) {
+    height: 2.5rem !important;
+    font-size: 1.0rem !important;
+}
+
+.table.is-sps-table-v1 tbody td:has(input) {
+    padding: 0 !important;
+}
+
+.table.is-sps-table-v1 tbody td {
+    padding-left: 4px !important;
+    padding-right: 4px !important;
+}
+
+#tCarteira {
+    /* max-height: 85vh; */
+    max-height: 90vh;
+    display: block;
+    overflow: auto;
+}
+.is-row-selected {
+    background-color: #8cb4f5 !important;
+}
+
+.is-pedido {
+    background-color: #f3f58c !important;
+}
+
+.is-produzir {
+    background-color: #f3f58c !important;
+}
+
+.is-produzido{
+    background-color: #8cb6f5 !important;
+}
+
+.is-rejeito{
+    color: red;
+    background-color: rgb(231, 181, 231) !important;
+}
+
+.is-jacutinga{
+    background-color: rgb(231, 181, 231) !important;
+}
+
+.is-sbc {
+    background-color: #f5cb8c !important;
+}
+
+.is-faturado {
+    background-color: rgb(163, 105, 163, 0.7) !important;
+}
+
+.is-faturar {
+   background-color: #f1a431 !important;
+}
+
+.is-clickable {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.is-row-parada{
+    color: red;
+    background-color: rgb(168, 211, 236) !important;
+}
+
+.is-row-rejeito_serra{
+    color: red;
+    background-color: rgb(150, 247, 226) !important;
+}
+
+.is-row-registro{
+    color:black;
+}
+
+.is-row-embalagem{
+    color: black;
+    background-color: rgb(247, 237, 150) !important;
+}
+
+.is-row-embalagem_cancelada{
+    color: red;
+    background-color: rgb(247, 237, 150) !important;
+}
+
+.is-row-rejeito_embalagem{
+    color: red;
+    background-color: rgb(231, 181, 231) !important;
+}
+
+.is-row-rejeito_emb_cancelado{
+    color: red;
+    background-color: rgb(195, 150, 247) !important;
+}
+
+
+.modal-card-body {
+    -webkit-overflow-scrolling: touch;
+    background-color: white;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-negative: 1;
+    flex-shrink: 1;
+    overflow: auto;
+    padding: 0px !important; 
+}
